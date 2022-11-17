@@ -2,7 +2,9 @@
 
 List contents of directories in tree-like format.
 
+*link to PyPI = https://pypi.org/project/tree-peb/0.1.0/*
 
+![project directory](https://github.com/peb-peb/tree/blob/main/data/screenshot.png)
 
 ## Installation
 
