@@ -1,5 +1,5 @@
 [project]
-name = "tree_peb"
+name = "tree-peb"
 version = "0.1.0"
 authors = [
   { name="peb", email="singh.harsh9097@gmail.com" },
