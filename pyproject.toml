@@ -1,0 +1,17 @@
+[project]
+name = "tree_peb"
+version = "0.1.0"
+authors = [
+  { name="peb", email="singh.harsh9097@gmail.com" },
+]
+description = "List contents of directories in tree-like format."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/peb-peb/tree"
