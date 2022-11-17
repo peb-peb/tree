@@ -2,31 +2,43 @@
 
 List contents of directories in tree-like format.
 
+
+
 ## Installation
 
-## Example
+To install `tree`, just run the following command:
 
-```bash
-$ python .\src\tree.py
-.\
-|
-├── src\
-│   ├── tree\
-│   │   ├── __pycache__\
-│   │   │   ├── tree_util.cpython-39.pyc
-│   │   │   └── __init__.cpython-39.pyc
-│   │   │
-│   │   ├── cli.py
-│   │   ├── tree_util.py
-│   │   └── __init__.py
-│   │
-│   └── tree.py
-│
-├── LICENSE
-└── README.md
+```zsh
+pip install tree-peb
 ```
 
+**NOTE**: Ensure that you have python 3.7 or greater installed on your machine to run this on your system.
+
+## Project Structure
+
+```text
+$ python3 .\tree.py
+.\
+|
+├── tree\
+│   ├── __init__.py
+│   ├── cli.py
+│   └── tree_util.py
+│
+├── LICENSE
+├── README.md
+└── tree.py
+```
+
+`tree.py` is the starting point for the script.
+
+`cli.py` contains all the command line arguments.
+
+`tree_util.py` contains all the utilities for fetching and displaying the tree diagram of directory.
+
 ## CLI Options
+
+If you run `tree` with a directory path as an argument, then you get a full directory tree printed on your screen. The default input directory is your current directory.
 
 ```text
 usage: tree [-h] [-v] [-d] [-o OUTPUT_FILE] [ROOT_DIR]
